@@ -47,7 +47,7 @@
         ::-webkit-scrollbar-track { background: #010409; }
         ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
 
-        /* --- UPDATED: SLIGHTLY DARKER/MOODIER BACKGROUND --- */
+        /* --- RESTORED ORIGINAL STORM BACKGROUND --- */
         .bg-layer {
             position: fixed;
             top: -5%; left: -5%; width: 110%; height: 110%;
@@ -57,12 +57,11 @@
             animation: breathe 20s infinite alternate ease-in-out, lightning 10s infinite;
         }
 
-        /* --- UPDATED: REALISTIC DOUBLE-FLASH LIGHTNING --- */
         @keyframes lightning {
             0%, 92%, 95%, 98%, 100% { filter: brightness(0.15) contrast(1.1) saturate(0.6); }
-            93% { filter: brightness(1.8) contrast(1.4) saturate(0.2); } /* Main sharp strike */
+            93% { filter: brightness(1.8) contrast(1.4) saturate(0.2); }
             94% { filter: brightness(0.15) contrast(1.1) saturate(0.6); }
-            96% { filter: brightness(1.0) contrast(1.2) saturate(0.4); } /* Secondary weaker flash */
+            96% { filter: brightness(1.0) contrast(1.2) saturate(0.4); }
         }
 
         @keyframes breathe {
@@ -503,7 +502,7 @@
 
         <!-- Drive Box -->
         <section class="drive-section">
-            <a href="https://drive.google.com/drive/project/18YqjO18YbJjGEVlh2Klv956bZ4tEn8St?usp=drive_link" 
+            <a href="https://drive.google.com/drive/project/18YqjO18YbJjGEVlh2Klv956bZ4tEn8St?usp=sharing" 
                target="_blank" rel="noopener noreferrer" 
                class="drive-portal js-tilt" 
                data-tilt data-tilt-max="8" data-tilt-perspective="1000" data-tilt-scale="1.05">
